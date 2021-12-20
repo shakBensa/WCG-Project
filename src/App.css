@@ -2,15 +2,44 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  margin-bottom: 10px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  width:200px;
+	height:270px;
+	border-radius:10px;
+	border:solid 1px;
+  margin-bottom: 10px;
+  
+  
+  
+}
+#mainContainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#homeContainer{
+  position: relative;
+  display: block;
+  margin:auto;
+  margin-top: 150px;
+  border: 10px;
+  width: 35%;
+  border-style: groove;
 }
 
 .App-header {
